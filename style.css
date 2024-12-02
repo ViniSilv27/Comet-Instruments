@@ -52,7 +52,7 @@ header{
     align-items: center;
 }
 .pesquisa input{
-    padding: 8px 280px 8px 8px;
+    padding: 8px 200px 8px 8px;
     border-radius: 12px;
     margin-right: 8px;
 }
@@ -377,7 +377,7 @@ footer ul li {
         border: none;
     }
     .menu{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .flex-coluna{

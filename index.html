@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comet Instruments</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <div class="img-titulo">
+                <div class="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="./logo/f901e6b8-9cea-4565-a9f2-cd63fe229c3d.png" alt="logo da loja">
+            </div>
+            <nav >
+                <ul class="menu">
+                    <li class="menu-drop">
+                        <a href="#sobre-a-loja">Sobre a Loja</a> 
+                    </li>
+                    <li class="menu-drop">
+                        <a href="#produtos-loja">Produtos</a>
+                        <ul class=" submenu">
+                            <li>
+                                <a href="#violao">Violão</a>
+                            </li>
+                            <li>
+                                <a href="#contra-baixo">Contra-Baixo</a>
+                            </li>
+                            <li>
+                                <a href="#guitarra">Guitarra</a>
+                            </li>
+                            <li>
+                                <a href="#bateria">Bateria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-drop">
+                        <a href="#contato">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="pesquisa">
+                <input type="search" placeholder="pequise em nossa loja">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>      
+    </header>
+    <section class="container" id="sobre-a-loja">
+        <div class="container-flex sobre-loja flex-coluna">
+            <img src="./logo/WhatsApp Image 2024-11-26 at 10.27.43.jpeg" alt="imagem da loja" id="imagem-da-loja">
+            <div class="descricao">
+                <h2  class="titulo">Sobre a Loja</h2>
+                <p>
+                    Cometa Instrumentos é sua loja de referência em instrumentos musicais. Localizada no coração do shopping, oferecemos uma ampla variedade de instrumentos de alta qualidade para músicos iniciantes e experientes. 
+                    Nossa equipe especializada está pronta para ajudá-lo a encontrar o instrumento perfeito.
+                </p>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section class="container " id="produtos-loja">
+        <h2 class="titulo">Produtos</h2>
+        <ul class="produtos-lista">
+            <li id="violao">
+                <h2 >Violões</h2>
+                <ul class="produtos" >
+                    <li>
+                        <img src="./imagens/violao/74154_violao-eletrico-epiphone-j-200-ec-studio-parlor-solid-top-vintage-sunburst_l1_638010112632321525.webp" alt="violao">
+                        <div class="produto-conteudo">
+                            <h3>Violão Epiphone j 200 Vintaje</h3>
+                            <p>Violão eletroacústico, cordas de aço na cor marrom-preto</p>
+                            <strong>R$ 560,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/violao/violao_eletroacustico_aco_flat_cutaway_sf_14_preto_giannini_541_2_682cf35cc417d485f4dc1555a56d3261.webp" alt="violao">
+                        <div class="produto-conteudo">
+                            <h3>Violão Náilon Giannini </h3>
+                            <p>Violão eletroacústico, cordas de nailon na cor preta</p>
+                            <strong>R$ 390,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/violao/violao_giannini_performance_gsf_1d_ceq_3_tone_sunburst_3ts_aco_eletroacustico_53433_1_fa0bf805ba0b79ada3a9e15fa33ea168.webp" alt="violao">
+                        <div class="produto-conteudo">
+                            <h3>Violão Giannini Performance</h3>
+                            <p>Violão eletroacústico, cordas de aço na cor vermelho-preto</p>
+                            <strong>R$ 750,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/violao/violao_strinberg_sj201hc_mgs_semi_jumbo_fosco_1279_2_9ea1a712a341941b0b93561eac99a364.webp" alt="violao">
+                        <div class="produto-conteudo">
+                            <h3>Violão Strinberg sj201hc</h3>
+                            <p>Violão eletroacústico, cordas de aço na cor marrom</p>
+                            <strong>R$ 899,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 id="contra-baixo">Contra-Baixos</h2>
+                <ul class="produtos">
+                    <li>
+                        <img src="./imagens/baixo/2622_contra-baixo-4-cordas-strinberg-sab-400_l1_638069540136770670.jpg" alt="contra-baixo">
+                        <div class="produto-conteudo">
+                            <h3>Contra-Baixo Stribeng sab400</h3>
+                            <p>Contra-baixo 4 cordas, cor vermelho-preto</p>
+                            <strong>R$ 1.960,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/baixo/contrabaixo-4-cordas-ativo-strinberg-sab400-tbl-azul.jpg" alt="contra-baixo">
+                        <div class="produto-conteudo">
+                            <h3>Contra-Baixo strinberg sab400 </h3>
+                            <p>Contra-baixo 4 cordas, cor azul-preto</p>
+                            <strong>R$ 2.199,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/baixo/contrabaixo-4-cordas-waldman-gbw-100-brown-sunburst-bs-2bf29e88-fd0689i4en.webp" alt="contra-baixo">
+                        <div class="produto-conteudo">
+                            <h3>Contra-Baixo Waldman</h3>
+                            <p>Contra-baixo 4 cordas, cor marrom-preto</p>
+                            <strong>R$ 1.750,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/baixo/contrabaixo-ativo-4-cordas-ewb-12a-bk-ewa-46e4f5a4.webp" alt="contra-baixo">
+                        <div class="produto-conteudo">
+                            <h3>Contra-Baixo ewb12a</h3>
+                            <p>contra-baixo com 4 cordas na cor Preta </p>
+                            <strong>R$ 1.899,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 id="guitarra">Guitarras</h2>
+                <ul class="produtos" >
+                    <li>
+                        <img src="./imagens/guitarra/185163-400-400.webp" alt="guitarras">
+                        <div class="produto-conteudo">
+                            <h3>Guitarra Yamaha 112J</h3>
+                            <p>Guitarra Yamaha 6 cordas, preta e branca</p>
+                            <strong>R$ 699,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/guitarra/229054108c18801b36a.webp" alt="guitarras">
+                        <div class="produto-conteudo">
+                            <h3>Guitarra Squier</h3>
+                            <p>Guitarra Squier 6 cordas, cor marrom e branca</p>
+                            <strong>R$ 799,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/guitarra/9702-1-nrrcokkryf.webp" alt="guitarras">
+                        <div class="produto-conteudo">
+                            <h3>Guitarra Sterling</h3>
+                            <p>Guitarra Sterling 6 cordas, cor rosa</p>
+                            <strong>R$ 1.990,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/guitarra/rock-in-rio-ca-3-tpwnu65h7j.webp" alt="guitarras">
+                        <div class="produto-conteudo">
+                            <h3>Guitarra Fender Rock in rio</h3>
+                            <p>Guitarra Squier 6 cordas, cor vermelha e branca</p>
+                            <strong>R$ 7.530,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 id="bateria">Baterias</h2>
+                <ul class="produtos" >
+                    <li>
+                        <img src="./imagens/bateria/2024475997bd59edea0.webp" alt="Baterias">
+                        <div class="produto-conteudo">
+                            <h3>Bateria D-one Rocket</h3>
+                            <p>Bateria acústica D-one Laranja completa</p>
+                            <strong>R$ 4.999,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/bateria/90_bateria_michael_acustica_2_tons_trinity_dmt322_msp_3159_1_1f0c9774c34c45122e6ab5c79962e42a.webp" alt="bateria">
+                        <div class="produto-conteudo">
+                            <h3>Bateria Michael</h3>
+                            <p>Bateria acústica Michael marrom completa</p>
+                            <strong>R$ 3.199,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/bateria/9823-1-enrd7sr397.webp" alt="bateria">
+                        <div class="produto-conteudo">
+                            <h3>Bateria  Tama</h3>
+                            <p>Bateria acústica Tama na cor azul completa</p>
+                            <strong>R$ 1.990,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./imagens/bateria/35693786_1.webp" alt="Baterias">
+                        <div class="produto-conteudo">
+                            <h3>Bateria Premium</h3>
+                            <p>Bateria acústica Premium preta, completa</p>
+                            <strong>R$ 2.780,00</strong>
+                            <button type="button">Comprar</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2  class="titulo">Fale conosco</h2>
+            <div class="contato-endereco">
+                <form>
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Nome" id="nome">
+                        </li>
+                        <li>
+                            <input type="email" placeholder="Email" name="email" id="email">
+                        </li>
+                        <li>
+                            <input type="tel" placeholder="Telefone" name="telefone" id="telefone">
+                        </li>
+                        <li>
+                            <textarea placeholder="Sua mensagem"></textarea>
+                        </li>
+                        <li>
+                            <button id="botao" type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+                <img src="./logo/f901e6b8-9cea-4565-a9f2-cd63fe229c3d.png" alt="logo-da-loja">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>2024 &copy; Cometa Instrumentos</p>
+            <ul>
+                <li>
+                    <a href="#"><img src="./logo/174855.png" alt="instagrma"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./logo/5968764.png" alt="facebook"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

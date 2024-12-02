@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Josefin-sans,sans-serif;
+    font-weight: lighter;
+}
+:root{
+    --cor-de-fundo--:#021526;
+    --cor-secundaria--:#03346E;
+    --cor-ternaria--:#6EACDA;
+    --cor-de-texto--:#E2E2B6;
+    --cor-background--: #eae9e5;
+
+}
+html{
+    overflow-x: hidden;
+}
+.titulo{
+    margin-bottom: 48px;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid var(--cor-ternaria--);
+    color: var(--cor-secundaria--);
+}
+
+body{
+    background-color:#FFF;
+}
+.container{
+    max-width: 1128px;
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+header .img-titulo img{
+    width: 150px;
+    margin-right: 8px;
+}
+header{
+    background-color: #021526;
+    color: #E2E2B6;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pesquisa input{
+    padding: 8px 280px 8px 8px;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+.pesquisa button{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: var(--cor-ternaria--);
+    color: var(--cor-secundaria--);
+    cursor: pointer;
+}
+
+.menu > li{
+    float: left;
+    list-style: none;
+    padding: 16px;
+    border-top: 4px solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+.menu-drop a{
+    text-decoration: none;
+}
+.submenu{
+    display: none;
+    list-style: none;
+    position: absolute;
+    border: 1px solid transparent;
+    left: 0;
+    width: 150px;
+    top: 100%;
+    border-radius: 8px;
+    box-shadow:5px 5px 5px #ccc;
+    padding: 8px 0;
+    background-color: var(--cor-de-fundo--);
+}
+.submenu li{
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.submenu a, .menu-drop a{
+    text-decoration: none;
+    color: var(--cor-de-texto--)
+    
+}
+.menu-drop:hover .submenu{
+    display: block;
+}
+.menu-drop:hover {
+    color: #ccc;
+    border-top: 2px solid var(--cor-ternaria--);
+}
+.submenu li a:hover{
+    color: #ccc;
+}
+
+#imagem-da-loja{
+    height: 300px;
+    margin-right: 32px;
+}
+
+
+
+.descricao{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+}
+h2{
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--cor-secundaria--);
+    border-bottom: 2px solid var(--cor-ternaria--);
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    column-gap: 2%;
+    grid-row: 5%;
+    margin-bottom: 100px;
+
+}
+.produtos-lista li{
+    list-style: none;
+}
+
+
+.produtos-lista h2{
+    margin: 56px 0;
+    text-align: center;
+    border-top: 2px solid var(--cor-ternaria--);
+}
+
+.produtos li img{
+    width: 100%;
+}
+.produtos li{
+    list-style: none;
+    box-shadow:5px 5px 5px 5px #ccc;
+    background-color: #fff;
+}
+.produto-conteudo{
+    width: 90%;
+    margin-left: 16px;
+}
+.produtos li h3{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.produtos li p{
+    margin: 16px 0;
+    color: #565555;
+}
+.produtos strong{
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.produtos li button{
+    width: 98%;
+    padding: 8px 0;
+    background-color: green;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form{
+    padding: 32px;
+    background-color: #fff;
+    width: 40%;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 10px #ccc;
+
+}
+
+form li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    padding: 6px;
+    margin-bottom: 16px;
+}
+form ul li input{
+    padding: 16px 0 16px 2px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px #ccc;
+    border-color: #000;
+
+}
+
+form ul li textarea{
+    padding: 2px 0 56px 2px;
+    resize: none;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px #ccc;
+    border-color: #000;
+
+}
+#botao{
+    padding: 16px 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #8a8a8a;
+    color: #fff
+}
+
+.contato-endereco{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.contato-endereco img{
+    width: 600px;
+}
+
+
+.redes img{
+    height: 48px;
+}
+
+footer{
+    background-color: #021526;
+    color: #E2E2B6;
+    padding: 8px 0;
+
+}
+
+footer img{
+    height: 32px;
+}
+
+footer > .container{
+    margin-bottom: 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li {
+    margin-left: 32px;
+    list-style: none;
+}
+
+@media screen and (max-width: 767px){
+    .pesquisa{
+        display: none;
+    }
+    .menu{
+        display: none;
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        background-color: var(--cor-de-fundo--);
+        
+
+        
+    }
+    .menu > li{
+        border-top: 2px solid var(--cor-ternaria--);
+
+    }
+    .submenu{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        
+    }
+    
+    .menu-hamburguer{
+        width: 32px;
+
+    }
+    
+    .menu-hamburguer span{
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        display: block;
+        margin-bottom: 4px;
+    }
+    .img-titulo{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        align-items: center;
+        margin-left: 16px;
+
+
+    }
+    .flex-coluna{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .descricao{
+        margin-left: 6px;
+    }
+    #imagem-da-loja{
+        height: 170px;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .contato-endereco img{
+        display: none;
+    }
+    .produtos{
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+        margin-bottom: 12px;
+
+    }
+    .produtos li{
+        margin-bottom: 56px;
+    }
+    .redes{
+        width: 80%;
+    }
+    form{
+        width: 90%;
+        align-items: center;
+    }
+
+    footer img{
+        margin-right:  6px;
+        margin-left: 2px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .pesquisa{
+        display: flex;
+        align-items: center;
+    }
+    .pesquisa input{
+        padding: 8px 15px 8px 2px;
+    }
+    .pesquisa button{
+        padding: 8px;
+        border: none;
+    }
+    .menu{
+        font-size: 12px;
+    }
+
+    .flex-coluna{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .descricao p{
+        margin-left: 16px;
+    }
+    .titulo{
+        margin: 32px 0;
+    }
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(2, 47.5%);
+        column-gap: 5%;
+        row-gap: 5%;
+        margin-bottom: 100px;
+    }
+    .contato-endereco img{
+        display: none;
+    }
+    .produtos li{
+        margin-bottom: 56px;
+    }
+    .redes{
+        width: 80%;
+    }
+    form{
+        width: 50%;
+        align-items: center;
+    }
+
+    footer img{
+        margin-right:  6px;
+        margin-left: 2px;
+    }
+}
